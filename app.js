@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
     console.log("Server del mio blog")
 });
 
-app.get("/blog", (req, res) =>{
-    const blog = [
+app.get("/bacheca", (req, res) =>{
+    const bacheca = [
         {
             id: 1,
             titolo: "Ciambellone",
@@ -29,7 +29,7 @@ app.get("/blog", (req, res) =>{
             titolo: "Crackers",
             contenuto: "Crackers impastati con barbabietole",
             immagine: "images/crackers_barbabietola.jpeg",
-            tags: ["crackers", "barbabietola", "rosso"]
+            tags: ["salato", "barbabietola", "rosso"]
         },
         {
             id: 3,
@@ -53,6 +53,8 @@ app.get("/blog", (req, res) =>{
             tags: ["dolce", "barbabietola", "rosso"]
         },
     ]
+
+    res.json(bacheca);
 })
 
 // inserimento del metodo che lascia in ascolto il nostro server
