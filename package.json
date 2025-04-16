@@ -1,0 +1,22 @@
+{
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "<!-- \r Ciao Ragazzi,\r esercizio di oggi: express-blog-intro\r nome repo express-blog-introEsercizio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlomadella/express-blog-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlomadella/express-blog-intro/issues"
+  },
+  "homepage": "https://github.com/Carlomadella/express-blog-intro#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
