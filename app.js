@@ -21,35 +21,35 @@ app.get("/bacheca", (req, res) =>{
             id: 1,
             titolo: "Ciambellone",
             contenuto: "Ciambellone appena sfornato",
-            immagine: "images/ciambellone.jpeg",
+            immagine: "/images/ciambellone.jpeg",
             tags: ["dolce", "secco", "con il buco al centro"]
         },
         {
             id: 2,
             titolo: "Crackers",
             contenuto: "Crackers impastati con barbabietole",
-            immagine: "images/crackers_barbabietola.jpeg",
+            immagine: "/images/crackers_barbabietola.jpeg",
             tags: ["salato", "barbabietola", "rosso"]
         },
         {
             id: 3,
             titolo: "Pane fritto",
             contenuto: "Pane fatto in casa successivamente fritto",
-            immagine: "images/pane_fritto.jpeg",
+            immagine: "/images/pane_fritto.jpeg",
             tags: ["dolce", "pane", "fritto"]
         },
         {
             id: 4,
             titolo: "Pasta alla barbabietola",
             contenuto: "Pasta fatta in casa usando la barbabietola",
-            immagine: "images/pasta_barbabietola.jpeg",
+            immagine: "/images/pasta_barbabietola.jpeg",
             tags: ["salato", "barbabietola", "rosso"]
         },
         {
             id: 5,
             titolo: "Torta paesana",
             contenuto: "Torta paesana fatta in casa",
-            immagine: "images/torta_paesana.jpeg",
+            immagine: "/images/torta_paesana.jpeg",
             tags: ["dolce", "barbabietola", "rosso"]
         },
     ]
